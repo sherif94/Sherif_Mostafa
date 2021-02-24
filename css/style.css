@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --primary: #ff5a00;
+  --secondry: #141e73;
+  --primary-hover: #ff9459;
+  --checkboxBg: url(/images/talabat/filter-checkbox-checked.svg) left top
+    no-repeat;
+  --radioBg: url(/images/talabat/radio-b-selected.svg) left top no-repeat;
+  --btn-green: #00a53c;
+  --btn-green-hover: #178917;
+  --aHover: #038432;
+  --gray-border: #e0e0e0;
+  --hover-link-color: #ff5a00;
+  --orange-color: #ff5a00;
+  --orange-color-border: rgba(224, 141, 4, 0.28);
+  --orange-text: 224, 141, 4;
+  --black-color: 0, 0, 0;
+  --gem-tier-1: #ffbf04;
+  --gem-tier-2: #ff5a00;
+  --gem-tier-3: #ff3c00;
+  --gem-tier-4: #9700d5;
+  --gem-tier-text-1: #dfa805;
+  --gem-tier-text-2: #ff5a00;
+  --gem-tier-text-3: #ff3c00;
+  --gem-tier-text-4: #9700d5;
+  --neutral-black: #262626;
+  --neutral-grey: #838383;
+  --promo-pink: #f90067;
+  --neutral-10: #e5e5e5;
+  --vertical-yellow: #f4aa33;
+  --vertical-orange: #ff493d;
+  --vertical-pink: #e93c82;
+  --vertical-blue: #3d76ed;
+  --footer-bg: #262626;
+  --message-bg: #e5e7ff;
+  --mapFirst-border: #a6a6a6;
+
+  --font-site: "Roboto", sans-serif;
+}
+
+/*general style */
+
+body {
+  height: 4000px;
+  font-family: var(--font-site);
+  font-size: 14px;
+}
+
+/**/
+
+.logo {
+  width: 2rem;
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgcolor.scrolled {
+  background-color: #a6a6a6;
+}
+.nav-item a:after {
+  content: "";
+  display: block;
+  margin-top: 0.2rem;
+  left: 0;
+  bottom: 0px;
+  width: 0%;
+  height: 2px;
+  background-color: var(--gem-tier-4);
+  transition: all 0.5s ease-in-out;
+}
+
+.active a:after {
+  content: "";
+  display: block;
+  margin-top: 0.2rem;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 2px;
+  background-color: var(--gem-tier-4);
+}
+
+.nav-item a:hover:after {
+  width: 100%;
+}
+
+/*header 2 */
+
+.rightinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.intro {
+  width: 100%;
+}
