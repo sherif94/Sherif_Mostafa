@@ -1,3 +1,7 @@
+// onscroll behavior
+AOS.init();
+
+
 const navbar = document.querySelector('.navbar');
 
 window.onscroll = function() {
@@ -9,3 +13,4 @@ window.onscroll = function() {
     }
  
 }
+
