@@ -272,17 +272,18 @@ footer p {
 
   /* Skills  */
   .skills-bar {
-    width: 80%;
+    width: 95%;
   }
   /* End Skills  */
 
   /*Contact */
   #Contact .form {
-    width: 90%;
+    width: 100%;
     margin: auto;
   }
 
-  .section {
+  .section,
+  section#Projects {
     height: 100%;
     margin: 5rem 0;
   }
