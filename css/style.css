@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
 :root {
   --gem-tier-4: #9700d5;
   --neutral-10: #f1f1f1;
-  --font-site: "Roboto", sans-serif;
+  --font-site: "Cairo", sans-serif;
 }
 
 /*general style */
@@ -42,6 +41,29 @@ body {
   height: 3px;
   background-color: var(--gem-tier-4);
   margin: 0 auto 2rem auto;
+}
+
+.char {
+  font-weight: 800;
+  display: inline-block;
+  color: var(--gem-tier-4);
+}
+
+.title {
+  font-weight: 800;
+}
+
+.v-studio {
+  width: 2rem;
+}
+
+.lead a {
+  color: #333;
+}
+
+.lead a:hover {
+  color: var(--gem-tier-4);
+  text-decoration: none;
 }
 /*Start the Header */
 
@@ -203,6 +225,8 @@ header {
   height: 100%;
   overflow: hidden;
   cursor: pointer;
+  border: 2px solid #c9a3d8;
+  border-radius: 10px;
 }
 .potfolio img {
   height: 100%;
@@ -211,6 +235,7 @@ header {
 }
 .potfolio:hover img {
   transform: scale(1.2);
+  opacity: 0.6;
 }
 section#Projects {
   height: 70vh;
@@ -221,6 +246,12 @@ section#Projects {
 #Contact .form {
   width: 60%;
   margin: auto;
+}
+
+/* form focus color  */
+.form-control:focus {
+  border-color: rgba(194, 129, 231, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(168, 73, 223, 0.25);
 }
 
 footer p {
