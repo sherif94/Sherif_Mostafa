@@ -302,4 +302,15 @@ footer p {
     font-size: 2rem;
     margin-bottom: 0;
   }
+
+  #About i {
+    font-size: 1.5rem;
+  }
+  #About span {
+    word-wrap: break-word;
+  }
+
+  header {
+    text-align: center;
+  }
 }
