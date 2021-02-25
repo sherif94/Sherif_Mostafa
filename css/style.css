@@ -124,11 +124,9 @@ header {
 .skills-bar {
   width: 60%;
 }
-
 .skills-bar .bar {
   margin: 35px 5px;
 }
-
 .skills-bar .progress-line {
   width: 100%;
   height: 0.7em;
@@ -137,7 +135,6 @@ header {
   position: relative;
   border-radius: 1em;
 }
-
 .skills-bar .progress-line span {
   position: absolute;
   display: inline-block;
@@ -146,7 +143,6 @@ header {
   background-color: #9700d5;
   border-radius: 1em;
 }
-
 .skills-bar .progress-line.html span {
   width: 90%;
 }
@@ -162,7 +158,6 @@ header {
 .skills-bar .progress-line.bootstrap span {
   width: 80%;
 }
-
 .skills-bar .progress-line span::after {
   content: "";
   position: absolute;
@@ -175,7 +170,6 @@ header {
   border-bottom-width: 0;
   border-top-color: #000;
 }
-
 .skills-bar .progress-line span::before {
   content: "60%";
   position: absolute;
@@ -202,9 +196,7 @@ header {
 .skills-bar .progress-line.bootstrap span::before {
   content: "80%";
 }
-
 /*end of skills*/
-
 /*start of portfolio */
 .potfolio {
   width: 100%;
@@ -212,17 +204,17 @@ header {
   overflow: hidden;
   cursor: pointer;
 }
-
 .potfolio img {
   height: 100%;
   width: 100%;
   transition: all 0.5s ease-in-out;
 }
-
 .potfolio:hover img {
   transform: scale(1.2);
 }
-
+section#Projects {
+  height: 70vh;
+}
 /*End of portfolio */
 
 /* start contact */
